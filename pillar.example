@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+netbox:
+  netbox_config:
+    dir: /opt/netbox/
+    allowed_hosts: localhost
+    admin_user: admin
+    admin_pass: admin
+    admin_email: admin@ali.com
+  db_config:
+    name: netbox_db
+    user: netbox_usr
+    password: netbox_pass
+    host: localhost
